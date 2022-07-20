@@ -27,12 +27,13 @@
 }
 
 .banner-img {
-    width: 600px;
-    height: 561px;
+    width: 645px;
+    height: 667px;
 }
 
 .banner-img img {
     width: 100%;
+    height: 100%;
 }
 
 .banner-details h1 {
