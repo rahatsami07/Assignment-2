@@ -284,12 +284,12 @@ Teblet-View
         padding-left: 7%;
     }
     .banner-img {
-        width: 600px;
-        height: 400px;
+        width: 645px;
+        height: 667px;
     }
     .banner-img img {
         width: 100%;
-        height: 400px;
+        height: 100%;
     }
     .banner-details h1 {
         font-size: 45px;
