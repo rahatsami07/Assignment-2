@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700;1,900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 30px auto;
+    margin-bottom: 100px;
+}
+
+.banner {
+    display: flex;
+    border: 1px solid #333;
+    border-radius: 15px;
+    padding: 25px;
+    background: #161616;
+    padding-bottom: 0px;
+}
+
+.banner-details {
+    width: 600px;
+    color: #fff;
+    padding: 7% 0px 0px 7%;
+}
+
+.banner-img {
+    width: 600px;
+    height: 561px;
+}
+
+.banner-img img {
+    width: 100%;
+}
+
+.banner-details h1 {
+    font-size: 62px;
+    margin-bottom: 30px;
+}
+
+.banner-details p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+button.watch-btn {
+    padding: 15px 30px;
+    border: 1px solid #fb5200;
+    background: transparent;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    transition: 0.4s;
+}
+
+button.watch-btn i {
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+button.watch-btn:hover {
+    background: #fb5200;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px #fb5200;
+}
+
+.articals {
+    display: flex;
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    width: 1000px;
+}
+
+.options {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background: #161616;
+    margin-right: 20px;
+    box-shadow: 0px 0px 10px #545454;
+}
+
+.option {
+    padding: 10px;
+    text-align: center;
+    margin: 15px;
+    border-radius: 7px;
+    background: #fff;
+}
+
+.option:hover {
+    background: #fb5200;
+    cursor: pointer;
+}
+
+.option a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.option:hover a {
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.option.highlight-blog {
+    background: #fb5200;
+}
+
+.option.highlight-blog a {
+    color: #fff;
+}
+
+.blog {
+    border: 1px solid #e3e3e3;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px #ddd;
+    overflow: hidden;
+}
+
+.blog img {
+    width: 100%;
+    box-shadow: 0px 5px 5px #ddd;
+    transition: 0.8s;
+}
+
+.blog img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.blog-details {
+    padding: 15px;
+}
+
+.blog-details a {
+    text-decoration: none;
+    padding: 5px 15px;
+    color: #000000;
+    font-weight: 500;
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px #ddd;
+    transition: 0.3s;
+}
+
+.blog-details a:hover {
+    background-color: #fb5200;
+    box-shadow: 0px 0px 10px #fb5200;
+    color: #fff;
+}
+
+.blog-details h3 {
+    margin: 30px 0px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icons p {
+    margin-right: 40px;
+}
+
+.icons p i {
+    padding-right: 10px;
+}
+
+.View-all {
+    text-align: center;
+    margin-top: 30px;
+    display: none;
+}
+
+.View-all a {
+    text-decoration: none;
+    border: 1px solid #fb5200;
+    padding: 10px 30px;
+    font-size: 17px;
+    border-radius: 7px;
+    font-weight: 600;
+    color: #000000;
+    transition: 0.3s;
+}
+
+.View-all a:hover {
+    background-color: #fb5200;
+    color: #fff;
+    box-shadow: 0px 0px 10px #fb5200;
+}
+
+footer {
+    width: 100%;
+    height: 405px;
+    background: #161616;
+}
+
+.all-about-us {
+    width: 90%;
+    height: 270px;
+    margin: 0 auto;
+    transform: translateY(50%);
+}
+
+.all-about-us h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.all-about-us hr {
+    margin-bottom: 30px;
+    border: 1px solid #333;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+    display: block;
+    padding-bottom: 20px;
+}
+
+.menu a:hover {
+    color: #fb5200;
+}
+
+.social-links {
+    text-align: center;
+    margin: 100px 15px;
+    color: #fff;
+    display: none;
+}
+
+.social-links a {
+    color: #fff;
+}
+
+.social-links i {
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 50%;
+    margin-right: 20px;
+    transition: 0.3s;
+}
+
+.social-links i:hover {
+    background-color: #fb5200;
+}
+
+
+/*...............
+.................
+
+Teblet-View
+
+...............
+............... */
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+    .container {
+        width: 95%;
+    }
+    .banner-details {
+        width: 541px;
+        padding-left: 7%;
+    }
+    .banner-img {
+        width: 600px;
+        height: 400px;
+    }
+    .banner-img img {
+        width: 100%;
+        height: 400px;
+    }
+    .banner-details h1 {
+        font-size: 45px;
+        margin-bottom: 0px;
+    }
+    .banner-details p {
+        font-size: 11px;
+        margin-bottom: 30px;
+    }
+    .articals {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .options {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        height: 96px;
+        border-radius: 10px;
+        background: none;
+        margin-right: 20px;
+        box-shadow: none;
+    }
+    .option {
+        padding: 15px 80px;
+        text-align: center;
+        margin: 20px 0px;
+        border: 1px solid #ddd;
+        border-radius: 7px;
+        background: #fff;
+    }
+    .option a {
+        text-decoration: none;
+        color: #000;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .option.highlight-blog {
+        background: #fb5200;
+    }
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+    }
+    .blog img {
+        width: 100%;
+    }
+    .View-all {
+        display: block;
+    }
+    .menu {
+        display: block;
+        text-align: center;
+    }
+    .menu a {
+        padding-right: 5px;
+    }
+    footer {
+        height: 505px;
+    }
+}
+
+
+/*...............
+.................
+
+Moviel-View
+
+...............
+............... */
+
+@media only screen and (min-width:320px) and (max-width:767px) {
+    .container {
+        width: 95%;
+    }
+    button.watch-btn {
+        padding: 8px 20px;
+        margin-left: 38px;
+    }
+    .banner-details {
+        width: 100%;
+        padding-left: 0;
+        margin-bottom: 20px;
+    }
+    .banner-img {
+        width: 100%;
+        height: 350px;
+    }
+    .banner-img img {
+        width: 100%;
+        height: 351px;
+    }
+    .banner-details h1 {
+        font-size: 27px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .banner-details p {
+        font-size: 8px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .banner {
+        display: block;
+        border: 1px solid #333;
+        border-radius: 15px;
+        padding: 25px;
+        background: #161616;
+        padding-bottom: 0px;
+    }
+    .articals {
+        display: block;
+    }
+    .options {
+        width: 100%;
+        display: block;
+        height: 250px;
+        background: none;
+        box-shadow: none;
+    }
+    .option {
+        padding: 15px 80px;
+        text-align: center;
+        margin: 20px 0px;
+        border: 1px solid #ddd;
+        border-radius: 7px;
+        background: #fff;
+    }
+    .option a {
+        text-decoration: none;
+        color: #000;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .option.highlight-blog {
+        background: #fb5200;
+    }
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+    .social-links {
+        display: block;
+    }
+    .menu {
+        text-align: center;
+        display: block;
+        height: 160px;
+    }
+    footer {
+        width: 100%;
+        height: 600px;
+    }
+}
